@@ -9,6 +9,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      
-name: 출력하기
-      run: echo "github actions"
+      - name: 출력하기
+        run: echo "github actions"
